@@ -254,7 +254,7 @@ def cal_target(address):
     return hex(target)
 
 
-address = 0x00000000000000000000000005B38Da6a701c568545dCfcB03FcB875f56beddC4
+address = 0x0000000000000000000000005B38Da6a701c568545dCfcB03FcB875f56beddC4
 last = "19c1c82343bff459"
 target = cal_target(address)[2:-1]
 find(last, target)
